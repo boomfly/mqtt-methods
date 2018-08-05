@@ -1,6 +1,6 @@
 {
-  "name": "mqtt-rpc",
-  "version": "0.1.5",
+  "name": "mqtt-methods",
+  "version": "0.0.1",
   "description": "This module provides an rpc interface for MQTT.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/wolfeidau/mqtt-rpc.git"
+    "url": "git://github.com/boomfly/mqtt-methods.git"
   },
   "keywords": [
     "MQTT",
@@ -18,16 +18,16 @@
   "author": "Mark Wolfe <mark@wolfe.id.au>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wolfeidau/mqtt-rpc/issues"
+    "url": "https://github.com/boomfly/mqtt-methods/issues"
   },
   "devDependencies": {
     "chai": "~1.7.2",
     "mocha": "~1.12.0"
   },
   "dependencies": {
-    "debug": "~0.7.2",
-    "msgpack": "~0.2.1",
-    "mqtt": "~0.3.1",
-    "mqtt-router": "~0.1.1"
+    "debug": "^0.7.4",
+    "mqtt": "^0.3.13",
+    "mqtt-router": "^0.1.1",
+    "msgpack": "~1.0.2"
   }
 }
